@@ -1,13 +1,14 @@
 {
   "name": "react-selectable-table",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
     "build": "mkdir -p build/ && babel src/index.js -o build/index.js && webpack",
     "build-watch": "mkdir -p build/ && babel -w src/index.js -o build/index.js",
     "build-client-watch": "webpack -w",
     "clean": "rm -rf ./build/ ./test/build/",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -26,5 +27,6 @@
   },
   "peerDependencies": {
     "react": "^15.0.2"
-  }
+  },
+  "repository": "jrop/react-selectable-table"
 }
