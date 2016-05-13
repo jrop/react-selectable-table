@@ -1,4 +1,5 @@
 # react-selectable-table
+
 > A React component that allows for its rows to be selected/deselected
 
 # Installation
@@ -6,6 +7,10 @@
 ```sh
 npm i --save-dev react-selectable-table
 ```
+
+# Demo
+
+[Click here for a demo](https://rawgit.com/jrop/react-selectable-table/gh-pages/test/index.html)
 
 # Use
 
