@@ -27,7 +27,7 @@ class App extends React.Component {
 					{_.range(0, 10).map(i => <tr key={i}>
 						<td>Row {i}, Column 1</td>
 						<td>Row {i}, Column 2</td>
-						<td>Row {i}, Column 2</td>
+						<td>Row {i}, Column 3</td>
 					</tr>)}
 				</tbody>
 			</SelectableTable>
