@@ -16,6 +16,12 @@ class Table extends React.Component {
 			this.__$$triggerSelectionChange()
 			this.fireEvent = false
 		}
+
+		if (this.state.selected.length != this.__$$getRowCount()) {
+			const selected = _.fill(Array(this.__$$getRowCount()), false)
+			selected.forEach(i => selected[i] = this.state.selected[i])
+			this.setState({ selected: selected })
+		}
 	}
 
 	//
