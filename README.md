@@ -1,5 +1,7 @@
 # react-selectable-table
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/react-selectable-table.svg)](https://greenkeeper.io/)
+
 > A React component that allows for its rows to be selected/deselected
 
 # Installation
